@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBconnection {
-	private static String dbhost = "jdbc:mysql://localhost:3306/student";
+	private static String dbhost = "jdbc:mysql://localhost:3306/student_info";
 	private static String username = "root";
-	private static String password = "1234";
+	private static String password = "DicmoSplit";
 	private static Connection conn;
 	
 	@SuppressWarnings("finally")
